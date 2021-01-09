@@ -23,6 +23,11 @@
     font-family: 'Anton', sans-serif;
     
 }
+.my-plan-cards{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 
 .plan{
     background-color: #54e346;
