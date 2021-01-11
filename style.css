@@ -3,10 +3,13 @@
 #product-overview {
     background:url(becca-tapert--A_Sx8GrRWg-unsplash.jpg);
     background-size:cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 528px;
     padding: 10px;
-
+    position: relative;
+    margin-top: 43px;
+background-origin:border-box ;
 
 }
 
@@ -48,7 +51,8 @@ box-shadow:2px 2px 2px 2px rgba(0,0,0,.5);
     color:#008891;
     padding: 8px;
      box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
-     border-radius:8px
+     border-radius:8px;
+    font-size: 1rem;
 }
 .plan__title{
     color: #ffff;
@@ -95,6 +99,11 @@ box-shadow:2px 2px 2px 2px rgba(0,0,0,.5);
 .button-special {
     background-color: #ffff;
     color: #008891;
+}
+.button-special:hover,
+.button-special:active {
+    background-color: #0F3057;
+    color: #FFFF;
 }
 /* ???????????End Plans////////////////// */
 #key-feature {

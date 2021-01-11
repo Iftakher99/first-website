@@ -1,19 +1,22 @@
 * {
     box-sizing: border-box;
-   
+
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-.main-header {
-    background-color:#0f3057;
-    padding: 0 16px;
-    width: 100%;
-    display: flex;
-  
 
+.main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0f3057;
+    padding: 8px 16px;
+    z-index: 1;
+    position: fixed;
 }
 
 
@@ -22,82 +25,97 @@ body {
     color: #f3f2da;
     font-weight: 800;
     font-size: 22px;
-}
-.main-nav{  
     
-    text-align: right;
-    width: calc(100% - 150px);
-    vertical-align: middle;
-    margin: 0;
-  
+}
+.main-header__brand img{
+    width: 30px;
+    
 }
 
+.main-nav {
 
-.main-nav__item {
-    margin:0;
-    padding: 0;
-    list-style:none;
    
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 140px);
+    vertical-align: middle;
 
 }
 
 
 .main-nav__item {
- 
-    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
     
+  
+
+}
+
+
+.main-nav__item {
+
+    display: inline-block;
+
     margin: 0 16px;
 
 
 }
+
 .main-nav__item a {
     text-decoration: none;
     color: #f3f2da;
     font-weight: bold;
     padding: 3px 0;
+   
 }
+
 .main-nav__item a:hover,
- .main-nav__item a:active {
+.main-nav__item a:active {
     color: #ffff;
     border-bottom: 5px solid white;
 }
 
 .main-nav__item--cta a:hover,
-.main-nav__item--cta a:active  {
-    background:#008891;
+.main-nav__item--cta a:active {
+    background: #008891;
     color: #f3f2da;
     border: none;
 }
 
 .main-nav__item--cta a {
-color: #0f3057;
-background-color: #f3f2da;
-padding:  8px 16px;
-border-radius: 8px;
+    color: #0f3057;
+    background-color: #f3f2da;
+    padding: 8px 16px;
+    border-radius: 8px;
 
 }
 
-.main-footer{
-background-color: black;
-padding: 32px;
-margin-top: 48px;
+.main-footer {
+    background-color: black;
+    padding: 32px;
+    margin-top: 48px;
 }
-.main-footer__links{
-list-style: none;
-margin: 0;
-padding: 0;
-text-align: center;
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-.main-footer__link{
-text-decoration: none;
-display: inline-block;
-margin: 0 17px;
+
+.main-footer__link {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 17px;
 }
+
 .main-footer__link a {
     text-decoration: none;
-   color: white;
+    color: white;
 }
-.main-footer__link a:hover , 
-.main-footer__link a:active{
-color:#ccc ;
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
 }
